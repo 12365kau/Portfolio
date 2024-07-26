@@ -1,0 +1,16 @@
+h1 {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.detail{
+    font-size: 1.5rem;
+     margin: 50px 0;
+     width: 70%;
+     margin-left: 15rem;
+     padding-right: 15px;
+}
+
+.inshort {
+    font-size: 1.5rem;
+}

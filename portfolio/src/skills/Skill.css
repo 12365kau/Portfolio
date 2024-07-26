@@ -1,0 +1,253 @@
+.skillsection {
+    max-width: 80vw;
+    margin: auto;
+  }
+  
+  /* frontend -CSS */
+  
+  .frontend-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    background: linear-gradient(-45deg, #ab51ff 0%, #07073f 100%);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 17px;
+    padding: 14px 26px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.62),
+      inset 0px -2px 3px rgba(0, 0, 0, 0.48), inset 1px 1px 4px #ffffff,
+      rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .language-1,
+  .language-2,
+  .language-3 {
+    position: absolute;
+    transform: translateX(-50%);
+    font-weight: 800;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s;
+    border-radius: 8px 8px 8px 8px;
+    background: linear-gradient(-45deg, #ab51ff 0%, #07073f 100%);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.62),
+      inset 0px -2px 3px rgba(0, 0, 0, 0.48), inset 1px 1px 4px #ffffff,
+      rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    min-width: 180px;
+    padding: 8px;
+    color: white;
+    font-size: 11px;
+  }
+  .language-1 {
+    top: 0%;
+    left: 50%;
+    width: 200px;
+  }
+  .language-2 {
+    left: 100%;
+  }
+  
+  .language-3 {
+    left: 50px;
+  }
+  .frontend-container:hover .language-1 {
+    top: -100%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .frontend-container:hover .language-2 {
+    left: -20%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .frontend-container:hover .language-3 {
+    left: 120%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  /* framework-CSS */
+  
+  .framework-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    background: linear-gradient(-45deg, #ab51ff 0%, #07073f 100%);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 17px;
+    padding: 14px 26px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.62),
+      inset 0px -2px 3px rgba(0, 0, 0, 0.48), inset 1px 1px 4px #ffffff,
+      rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .framework-1,
+  .framework-2 {
+    position: absolute;
+    transform: translateX(-50%);
+    font-weight: 800;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s;
+    border-radius: 8px 8px 8px 8px;
+    background: linear-gradient(-45deg, #ab51ff 0%, #07073f 100%);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.62),
+      inset 0px -2px 3px rgba(0, 0, 0, 0.48), inset 1px 1px 4px #ffffff,
+      rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    min-width: 180px;
+    padding: 8px;
+    color: white;
+    font-size: 11px;
+  }
+  .framework-1 {
+    top: 0%;
+    left: 50%;
+    width: 200px;
+  }
+  .framework-2 {
+    left: 50px;
+  }
+  
+  .framework-container:hover .framework-1 {
+    top: -100%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .framework-container:hover .framework-2 {
+    left: 120%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  /* backend-CSS */
+  
+  .backend-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    background: linear-gradient(-45deg, #ab51ff 0%, #07073f 100%);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 17px;
+    padding: 14px 26px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.62),
+      inset 0px -2px 3px rgba(0, 0, 0, 0.48), inset 1px 1px 4px #ffffff,
+      rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #fff;
+  }
+  .blanguage-1 {
+    position: absolute;
+    transform: translateX(-50%);
+    font-weight: 800;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s;
+    border-radius: 8px 8px 8px 8px;
+    background: linear-gradient(-45deg, #ab51ff 0%, #07073f 100%);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.62),
+      inset 0px -2px 3px rgba(0, 0, 0, 0.48), inset 1px 1px 4px #ffffff,
+      rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    min-width: 180px;
+    padding: 8px;
+    color: white;
+    font-size: 11px;
+  }
+  
+  .backend-container:hover .blanguage-1 {
+    left: 120%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .blanguage-1 {
+    left: 50px;
+  }
+  /* database-CSS */
+  
+  .database-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    background: linear-gradient(-45deg, #ab51ff 0%, #07073f 100%);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 17px;
+    padding: 14px 26px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.62),
+      inset 0px -2px 3px rgba(0, 0, 0, 0.48), inset 1px 1px 4px #ffffff,
+      rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .dlanguage-1 {
+    position: absolute;
+    transform: translateX(-50%);
+    font-weight: 800;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s;
+    border-radius: 8px 8px 8px 8px;
+    background: linear-gradient(-45deg, #ab51ff 0%, #07073f 100%);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.62),
+      inset 0px -2px 3px rgba(0, 0, 0, 0.48), inset 1px 1px 4px #ffffff,
+      rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    min-width: 180px;
+    padding: 8px;
+    color: white;
+    font-size: 11px;
+  }
+  
+  .dlanguage-1 {
+    left: 50px;
+  }
+  .database-container:hover .dlanguage-1 {
+    left: 120%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
